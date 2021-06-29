@@ -1,0 +1,1 @@
+Spec from https://raw.githubusercontent.com/cloudevents/spec/v1.0.1/spec.avsc
