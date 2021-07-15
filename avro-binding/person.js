@@ -13,7 +13,8 @@ let personEvent = {
         "type": {"string":"com.example.person.created"},
         "specversion": {"string":"1.0"},
         "contenttype": {"string": "application/avro"},
-        "dataschema": {"string":"../avro/person.avsc"}
+        "dataschema": {"string":"../avro/person.avsc"},
+        "an-extension-attribute": {"string":"my stuff"},
     },
     "data":{"bytes":personType.toBuffer(person)}
 };
